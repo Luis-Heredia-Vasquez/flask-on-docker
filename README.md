@@ -94,11 +94,11 @@ Stop the production containers:
 docker compose -f docker-compose.prod.yml down -v
 ```
 
-## Notes
 
-This version uses `python:3.11-slim-bookworm` and `netcat-openbsd` because the tutorial's original Debian `buster` image no longer builds cleanly with `apt-get update`.
 
-On the lambda server, this project maps the app to port `1135`. If that port is already in use, change the left side of the port mapping in the compose file.
+
+
+
 
 
 
