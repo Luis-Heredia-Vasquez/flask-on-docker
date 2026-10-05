@@ -10,5 +10,4 @@ venv/
 *.sqlite3
 *.db
 .env.prod.db
-.env.prod
 .DS_Store
